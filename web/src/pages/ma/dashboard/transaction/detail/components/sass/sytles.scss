@@ -1,0 +1,15 @@
+.activate {
+    color: #0D47A1;
+    background-color: #FFF;
+    width: 150px;
+}
+
+td {
+    padding: 0 8px;
+}
+
+.alert-full-height {
+    > *:nth-child(2) {
+        height: inherit;
+    }
+}
